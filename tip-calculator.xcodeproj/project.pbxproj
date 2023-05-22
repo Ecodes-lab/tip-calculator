@@ -31,6 +31,8 @@
 		99C5349D2A1AADA100376767 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C5349C2A1AADA100376767 /* LabelFactory.swift */; };
 		99C5349F2A1AB69900376767 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C5349E2A1AB69900376767 /* UIView+Ext.swift */; };
 		99C534A12A1AC46C00376767 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C534A02A1AC46C00376767 /* AmountView.swift */; };
+		99E50AFD2A1B639E005A7419 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E50AFC2A1B639E005A7419 /* Tip.swift */; };
+		99E50AFF2A1B63E3005A7419 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E50AFE2A1B63E3005A7419 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		99C5349C2A1AADA100376767 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		99C5349E2A1AB69900376767 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		99C534A02A1AC46C00376767 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
+		99E50AFC2A1B639E005A7419 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		99E50AFE2A1B63E3005A7419 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 		99C534492A1A933500376767 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				99E50AFB2A1B638D005A7419 /* Models */,
 				99C5349B2A1AAD8400376767 /* Factory */,
 				99C534982A1AA5A300376767 /* Extensions */,
 				99C534932A1AA51E00376767 /* Config */,
@@ -177,6 +182,7 @@
 				99C5348F2A1A9A9B00376767 /* TipInputView.swift */,
 				99C534912A1A9AB800376767 /* SplitInputView.swift */,
 				99C534A02A1AC46C00376767 /* AmountView.swift */,
+				99E50AFE2A1B63E3005A7419 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +211,14 @@
 				99C5349C2A1AADA100376767 /* LabelFactory.swift */,
 			);
 			path = Factory;
+			sourceTree = "<group>";
+		};
+		99E50AFB2A1B638D005A7419 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99E50AFC2A1B639E005A7419 /* Tip.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,8 +379,10 @@
 				99C5344D2A1A933500376767 /* SceneDelegate.swift in Sources */,
 				99C5349D2A1AADA100376767 /* LabelFactory.swift in Sources */,
 				99C5349F2A1AB69900376767 /* UIView+Ext.swift in Sources */,
+				99E50AFD2A1B639E005A7419 /* Tip.swift in Sources */,
 				99C534922A1A9AB800376767 /* SplitInputView.swift in Sources */,
 				99C534902A1A9A9B00376767 /* TipInputView.swift in Sources */,
+				99E50AFF2A1B63E3005A7419 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
