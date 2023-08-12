@@ -1,2 +1,10 @@
-# tip-calculator
-An iOS Swift app that helps you calucate tips
+# Tip Calculator
+
+An iOS Swift app that helps you calculate tips
+
+# What I Learned
+- MVVM architecture in-depth
+- Used Combine
+- Integrated Snapkit for auto layout
+- Snapshot, UI, and Unit test
+- Reusable components
