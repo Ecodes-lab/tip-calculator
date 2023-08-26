@@ -1,6 +1,6 @@
 # Tip Calculator
 
-An iOS Swift app that helps you calculate tips
+An iOS Swift practice app that helps you calculate tips
 
 # What I Learned
 - MVVM architecture in-depth
